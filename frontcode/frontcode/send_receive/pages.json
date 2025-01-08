@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/start",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/index/send",
+      "style": {
+        "navigationBarTitleText": "发送页面"
+      }
+    },
+    {
+      "path": "pages/index/receive",
+      "style": {
+        "navigationBarTitleText": "接收页面"
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,44 @@
+{
+  "id": "__UNI__94A329A",
+  "name": "发送方前端页面",
+  "description": "发送方页面用于图片上传",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "uni-app-x": {
+    "compilerVersion": "4.36"
+  },
+  "app": {
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "",
+          "xhdpi": "",
+          "xxhdpi": "",
+          "xxxhdpi": ""
+        }
+      },
+      "permissions": [
+        {
+          "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+          "reason": "需要访问存储以保存或上传用户图片"
+        },
+        {
+          "name": "android.permission.READ_EXTERNAL_STORAGE",
+          "reason": "需要读取用户相册中的图片"
+        },
+        {
+          "name": "android.permission.CAMERA",
+          "reason": "需要使用相机拍照上传"
+        }
+      ],
+      "modules": {
+        "uni-prompt": {},
+        "uni-exit": {},
+        "uni-media": {},
+        "uni-network": {}
+      }
+    }
+  }
+}
