@@ -1,0 +1,17 @@
+
+.choosesendpage[data-v-1cf27b2a] {
+  margin-bottom: 20px;
+}
+uni-button[data-v-1cf27b2a] {
+  padding: 10px 20px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+uni-button[data-v-1cf27b2a]:hover {
+  background-color: #0051a8;
+}
